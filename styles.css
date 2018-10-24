@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Sofia';font-size: 22px;
+}
+
+h1 {
+    color:pink;
+}
+h1 {
+    text-align:center;
+}
+
+h2 {
+    text-align:center;
+}
+
+h2 {
+    color:lightblue;
+}
+h3 {
+    text-align:center;
+}
+body, html {
+  height: 100%;
+}
+.bg-image {
+  /* The image used */
+  background-image: url("https://static.tumblr.com/942aac0e8a17d4ab644741371cf9c1a0/ra4ksdc/Yf8omed3e/tumblr_static_tumblr_static_filename_640.gif");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+
+  /* Full height */
+  height: 100%; 
+  width:3000px;
+  height:900px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+    width:200px;
+}
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  color:white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
